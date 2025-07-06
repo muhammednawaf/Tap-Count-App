@@ -80,8 +80,6 @@ git clone https://github.com/yourusername/Tap-Counter-App.git
 
 ## 🖼️ Screenshots
 
-> 💡 *Add screenshots here to showcase the UI.*
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/68128861-09e7-473c-b7af-e89830f6e855" alt="Tap Screen" width="300" />
   &nbsp;&nbsp;&nbsp;
