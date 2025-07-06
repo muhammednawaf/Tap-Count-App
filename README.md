@@ -89,7 +89,7 @@ git clone https://github.com/yourusername/Tap-Counter-App.git
 
 ## 📦 APK Download
 
-👉 [**Download Latest APK Release**](https://github.com/yourusername/Tap-Counter-App/releases)
+👉 [**Download Latest APK Release**](https://github.com/muhammednawaf/Tap-Count-App/blob/main/Tap%20Counter.apk)
 
 ---
 
