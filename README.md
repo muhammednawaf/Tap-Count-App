@@ -82,8 +82,10 @@ git clone https://github.com/yourusername/Tap-Counter-App.git
 
 > 💡 *Add screenshots here to showcase the UI.*
 
-<img src="screenshots/tap_screen.png" width="300" alt="Tap Screen" />
-<img src="screenshots/reset_screen.png" width="300" alt="Reset Screen" />
+<img src![WhatsApp Image 2025-07-06 at 8 22 11 PM](https://github.com/user-attachments/assets/68128861-09e7-473c-b7af-e89830f6e855)
+="" width="300" alt="Tap Screen" />
+<img src![WhatsApp Image 2025-07-06 at 8 22 12 PM](https://github.com/user-attachments/assets/876cbefc-56f3-442d-a842-363128ea28a9)
+="" width="300" alt="Reset Screen" />
 
 ---
 
