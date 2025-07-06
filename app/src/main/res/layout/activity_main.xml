@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/background_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background_img"
+        android:scaleType="centerCrop">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/counter_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/counter_img"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/background_img"
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/reset_background"
+        android:layout_width="61dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="28dp"
+        android:src="@drawable/counter_img"
+        app:layout_constraintBottom_toTopOf="@+id/counter_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.162"></ImageView>
+
+    <ImageView
+        android:id="@+id/icon_reset"
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:src="@drawable/ic_reset"
+        app:layout_constraintBottom_toBottomOf="@+id/reset_background"
+        app:layout_constraintEnd_toEndOf="@+id/reset_background"
+        app:layout_constraintStart_toStartOf="@+id/reset_background"
+        app:layout_constraintTop_toTopOf="@+id/reset_background"></ImageView>
+
+    <TextView
+        android:id="@+id/counter"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/background_img" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
